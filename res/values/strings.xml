@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Overview</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_quiz_main">QuizMain</string>
+    <string name="next">Next</string>
+    <string name="test">Testspørsmål</string>
+
 </resources>

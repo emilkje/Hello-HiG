@@ -9,5 +9,19 @@
     android:layout_height="wrap_content"
     android:text="Hello World, Overview"
     />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Quiz"
+    android:onClick="open_quiz" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Gjettespill" />
+
 </LinearLayout>
 
