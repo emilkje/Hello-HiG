@@ -19,19 +19,17 @@ public class QuizMain extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Globals g = Globals.getInstance();/*
-        g.addQuestion("I hvilket bygg ligger Ørneredet?", "G-bygget", "A-bygget", "H-bygget", "C-bygget");
-        g.addQuestion("Hva heter dekanen på IMT?", "Morten Irgens", "Harald Liodden", "Simon McCallum", "Det er en felles dekan for IMT, HOS og TØL");
-        g.addQuestion("Når stenger biblioteket?", "19:00", "Det er alltid åpent", "20:00", "18:00");
-        g.addQuestion("Når åpner kantina?", "08:00", "07:00", "09:00", "07:30");
-        g.addQuestion("I hvilken etasje i A-bygget finner man toalettene?", "I kjelleren", "I  1. etasje", "I 2. etasje", "Det er ikke toaletter i A-bygget");
-        g.addQuestion("Når stenger middagsserveringa i kantina på fredager?", "13:30", "15:00", "16:00", "16:30");
-        g.addQuestion("I hvilket bygg finner du IT-tjenesten?", "K-bygget", "A-bygget", "G-bygget", "H-bygget");
-        g.addQuestion("Hvilket bygg ligger kantina i?", "G-bygget", "A-bygget", "K-bygget", "B-bygget");
-        g.addQuestion("Hva heter studenthuset for HiG-studentene?", "Huset", "Studenthuset", "Studentenes hus", "HiG-huset");
-        g.addQuestion("I hvilket bygg ligger Eureka?", "H-bygget", "A-bygget", "B-bygget", "G-bygget");*/
-        g.addQuestion(getResources().getString(R.string.test), "H-bygget", "A-bygget", "B-bygget", "G-bygget");
-        //R.string.string_name
+        Globals g = Globals.getInstance();
+        g.addQuestion(getResources().getString(R.string.q1), getResources().getString(R.string.a1), getResources().getString(R.string.w1n1), getResources().getString(R.string.w2n1), getResources().getString(R.string.w3n1));
+        g.addQuestion(getResources().getString(R.string.q2), getResources().getString(R.string.a2), getResources().getString(R.string.w1n2), getResources().getString(R.string.w2n2), getResources().getString(R.string.w3n2));
+        g.addQuestion(getResources().getString(R.string.q3), getResources().getString(R.string.a3), getResources().getString(R.string.w1n3), getResources().getString(R.string.w2n3), getResources().getString(R.string.w3n3));
+        g.addQuestion(getResources().getString(R.string.q4), getResources().getString(R.string.a4), getResources().getString(R.string.w1n4), getResources().getString(R.string.w2n4), getResources().getString(R.string.w3n4));
+        g.addQuestion(getResources().getString(R.string.q5), getResources().getString(R.string.a5), getResources().getString(R.string.w1n5), getResources().getString(R.string.w2n5), getResources().getString(R.string.w3n5));
+        g.addQuestion(getResources().getString(R.string.q6), getResources().getString(R.string.a6), getResources().getString(R.string.w1n6), getResources().getString(R.string.w2n6), getResources().getString(R.string.w3n6));
+        g.addQuestion(getResources().getString(R.string.q7), getResources().getString(R.string.a7), getResources().getString(R.string.w1n7), getResources().getString(R.string.w2n7), getResources().getString(R.string.w3n7));
+        g.addQuestion(getResources().getString(R.string.q8), getResources().getString(R.string.a8), getResources().getString(R.string.w1n8), getResources().getString(R.string.w2n8), getResources().getString(R.string.w3n8));
+        g.addQuestion(getResources().getString(R.string.q9), getResources().getString(R.string.a9), getResources().getString(R.string.w1n9), getResources().getString(R.string.w2n9), getResources().getString(R.string.w3n9));
+        g.addQuestion(getResources().getString(R.string.q10), getResources().getString(R.string.a10), getResources().getString(R.string.w1n10), getResources().getString(R.string.w2n10), getResources().getString(R.string.w3n10));
         g.shuffle(); // Randomise the order of QAPs
         ask();
     }
