@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hello HiG!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_quiz_main">Quiz</string>
+    <string name="next">Next</string>
+    
+    <!--Questions-->
+    <string name="q1">In which building is the room "Ørneredet" located?</string>
+    <string name="q2">Who is the dean of the IMT department?</string>
+    <string name="q3">When does the library close?</string>
+    <string name="q4">When does the cafeteria open?</string>
+    <string name="q5">On which floor in the A-building will you find the student toilets?</string>
+    <string name="q6">On Fridays, when does the cafeteria stop serving dinner?</string>
+    <string name="q7">In which building will you find the IT department?</string>
+    <string name="q8">In which building will you find the cafeteria?</string>
+    <string name="q9">What's the student house called (in Norwegian)?</string>
+    <string name="q10">In which building is the auditorium Eureka?</string>
+    
+    <!--Correct answer-->
+    <string name="a1">The G-building</string>
+    <string name="a2">Morten Irgens</string>
+    <string name="a3">19:00</string>
+    <string name="a4">08:00</string>
+    <string name="a5">I the basement</string>
+    <string name="a6">13:30</string>
+    <string name="a7">The K-building</string>
+    <string name="a8">The G-building</string>
+    <string name="a9">Huset</string>
+    <string name="a10">The H-building</string>
+    
+    <!--Wrong answer 1-->
+    <string name="w1n1">The A-building</string>
+    <string name="w1n2">Harald Liodden</string>
+    <string name="w1n3">It's always open</string>
+    <string name="w1n4">07:00</string>
+    <string name="w1n5">On the first floor</string>
+    <string name="w1n6">15:00</string>
+    <string name="w1n7">The A-building</string>
+    <string name="w1n8">The A-building</string>
+    <string name="w1n9">Studenthuset</string>
+    <string name="w1n10">The A-building</string>
+    
+    <!--Wrong answer 2-->
+    <string name="w2n1">The H-building</string>
+    <string name="w2n2">Simon McCallum</string>
+    <string name="w2n3">20:00</string>
+    <string name="w2n4">09:00</string>
+    <string name="w2n5">On the second floor</string>
+    <string name="w2n6">16:00</string>
+    <string name="w2n7">The G-building</string>
+    <string name="w2n8">The K-building</string>
+    <string name="w2n9">Studentenes hus</string>
+    <string name="w2n10">The B-building</string>
+    
+    <!--Wrong answer 3-->
+    <string name="w3n1">C-bygget</string>
+    <string name="w3n2">Det er en felles dekan for IMT, HOS og TØL</string>
+    <string name="w3n3">18:00</string>
+    <string name="w3n4">07:30</string>
+    <string name="w3n5">Det er ikke toaletter i A-bygget</string>
+    <string name="w3n6">16:30</string>
+    <string name="w3n7">H-bygget</string>
+    <string name="w3n8">B-bygget</string>
+    <string name="w3n9">HiG-huset</string>
+    <string name="w3n10">G-bygget</string>
+
+</resources>
